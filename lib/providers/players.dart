@@ -19,7 +19,7 @@ class Players with ChangeNotifier {
     DateTime datetimeNow = DateTime.now();
 
     Uri url = Uri.parse(
-        "https://tkk-project-default-rtdb.asia-southeast1.firebasedatabase.app/players.json");
+        "https://tugastif-a-default-rtdb.firebaseio.com//players.json");
     return http
         .post(
       url,
